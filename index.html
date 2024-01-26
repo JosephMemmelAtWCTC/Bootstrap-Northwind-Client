@@ -28,13 +28,24 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Products
+                        <i class="fa-solid fa-database"></i> Products
                     </a>
                     <div class="dropdown-menu" aria-labelledby="productDropdown">
-                        <a class="dropdown-item" href="#">Browse Categories</a>
-                        <a class="dropdown-item" href="#">Product Search</a>
+                        <a class="dropdown-item" href="#"><i class="fa-solid fa-layer-group"></i> Browse Categories</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-search"></i> Product Search</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Current Discounts</a>
+                        <a class="dropdown-item" href="#"><i class="fa-solid fa-tags"></i> Current Discounts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="customerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-users"></i> Customers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="customerDropdown">
+                        <a class="dropdown-item" href="#"><i class="fa-solid fa-address-card"></i> Account</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fa-solid fa-user-plus"></i> Register</a>
+                        <a class="dropdown-item" href="#"><i class="fa-solid fa-right-to-bracket"></i> Sign In</a>
                     </div>
                 </li>
             </ul>
@@ -45,7 +56,15 @@
         </div>
     </nav>
     <div class="container-fluid">
-        Hello World!
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h1 class="display-3">Northwind</h1>
+                <p class="lead">We have the best prices and selection of high quality foods & beverages on the planet! Check out our featured discounts below.</p>
+                <hr>
+                <p>For spectacular international quisuine, look no further.</p>
+                <button type="submit" class="btn btn-outline-primary">Order Now <i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
     </div>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
