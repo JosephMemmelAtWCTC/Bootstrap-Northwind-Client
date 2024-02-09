@@ -6,7 +6,7 @@ $(function () {
     const $toastHeader = $('#toast-header');
     const $toastCode = $('#code');
 
-    $('.code').on('click', function (e) {
+    $('.triggerToast').on('click', function (e) {
         e.preventDefault();
         // first pause the audio (in case it is still playing)
         toast.pause();
